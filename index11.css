@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ya globle veriable h */
+:root{
+    --color:rgb(31, 41, 7);
+    --seccolor:rgb(202, 70, 70);
+}
+
+div :first-child{
+    background-color:var(--color)
+
+}
+/* ya local veriable h */
+ul li:first-child{
+    --color:rgb(228, 153, 15);
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor);
+}
+ul li{
+    list-style: none;
+    padding: 34px;
+}
+ul{
+    display: flex;
+    color: aliceblue;
+}
